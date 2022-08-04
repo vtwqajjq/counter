@@ -20,7 +20,6 @@ function App() {
         } else {
             setError(false)
         }
-        console.log(error)
     },[minValue,maxValue])
 
     const resetHandler = () => {
