@@ -1,0 +1,41 @@
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 130px;
+    background-color: deepskyblue;
+    border-radius: 20px;
+}
+
+.display span {
+    font-size: 50px;
+}
+
+@keyframes shaking {
+    0% {
+        transform: translateX(0)
+    }
+    25% {
+        transform: translateX(2px)
+    }
+    50% {
+        transform: translateX(-2px)
+    }
+    75% {
+        transform: translateX(2px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
+.max {
+    color: red;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: shaking 500ms;
+    transition: 500ms;
+}
+

@@ -14,7 +14,7 @@
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 10px;
     padding: 20px;
@@ -33,8 +33,48 @@ button {
     border-radius: 20px;
 }
 
-.wrapper {
+.displayWrapper {
     padding: 10px;
     border: 2px solid aqua;
     border-radius: 20px;
+    margin-left: 200px;
+}
+
+.menuWrapper {
+    width: 270px;
+    padding: 10px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.setting span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.setting input {
+    width: 80px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.errorInput {
+    background-color: red;
+}
+
+.errorMessageStyles {
+    font-size: 10px;
+    color: red;
 }
